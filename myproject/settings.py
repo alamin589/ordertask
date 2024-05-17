@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-r(h772bx#p4o-vov#g$p5ims3^1ho$w+qg1vfl17+kb*fi*3xt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*',
+                 'https://ordertask-2.onrender.com'
+                 
+]
 
 
 # Application definition
