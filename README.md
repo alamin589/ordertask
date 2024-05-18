@@ -13,17 +13,17 @@
 source venv/bin/activate  
 
 4. **Install the required packages**:
-5.   
+
 pip install -r requirements.txt
 
-7. **create migrations**: 
+5. **create migrations**: 
 
 python manage.py makemigrations
 
-8. **migrate database**:: 
+6. **migrate database**:: 
 
 python manage.py migrate
 
-9. **Run**: 
+7. **Run**: 
 
 python manage.py runserver
