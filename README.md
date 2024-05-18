@@ -7,14 +7,23 @@
 2. **Create venv**:
  
  Python3 -m venv venv
+ 
 3. **Activate venv**:
 
 source venv/bin/activate  
-4. **Install the required packages**:   
+
+4. **Install the required packages**:
+5.   
 pip install -r requirements.txt
-5. **create migrations**: 
+
+7. **create migrations**: 
+
 python manage.py makemigrations
-6. **migrate database**:: 
+
+8. **migrate database**:: 
+
 python manage.py migrate
-7. **Run**: 
+
+9. **Run**: 
+
 python manage.py runserver
